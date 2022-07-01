@@ -1,0 +1,23 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "belajar unit test nodejs",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "M.Novianto Anggoro",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
+}
